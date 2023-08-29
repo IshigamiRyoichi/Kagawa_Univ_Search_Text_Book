@@ -1,5 +1,11 @@
 # Kagawa_Univ_Search_Text_Book
 
+## 処理手順
+
+1. 香川大学のドリームキャンパスから受講している講義の一覧を取得する
+1. 受講している講義の教科書をシラバスから取得する
+1. 結果をGoogle スプレットシートにまとめる
+
 ## ライブラリー一覧とインストール
 
 * selenium
@@ -20,6 +26,16 @@ $ pip3 install requests
 * pandas
 ```shell
 $ pip3 install pandas
+```
+
+* oauth2client
+```shell
+$ pip3 install oauth2client
+```
+
+* gspread
+```shell
+$ pip3 install gspread
 ```
 
 ## Chrome Driverのインストール
@@ -85,3 +101,9 @@ $ rm chromedriver_linux64.zip
 1. Google スプレッドシートの`Share`をクリック
 
 1. JSONの`client_email`のアドレスを追加 > `send`
+
+## Run
+
+```shell
+$ python3 Search_Text_Book.py 
+```

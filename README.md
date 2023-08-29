@@ -45,3 +45,19 @@ $ unzip chromedriver_linux64.zip
 ```shell
 $ rm chromedriver_linux64.zip
 ```
+
+## Google アプレッドシートの設定
+
+1. [ここ](https://console.developers.google.com/)にアクセス
+
+![Alt text](image.png)
+
+![Alt text](image-1.png)
+
+![Alt text](image-2.png)
+
+![Alt text](image-3.png)
+
+![Alt text](image-4.png)
+
+![Alt text](image-5.png)

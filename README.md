@@ -50,14 +50,38 @@ $ rm chromedriver_linux64.zip
 
 1. [ここ](https://console.developers.google.com/)にアクセス
 
-![Alt text](https://github.com/IshigamiRyoichi/Kagawa_Univ_Search_Text_Book/blob/Search_Text_Book/image/image.png)
+1. `プロジェクトの選択` > `NEW PROJECT`でプロジェクトを作成する
 
-![Alt text](https://github.com/IshigamiRyoichi/Kagawa_Univ_Search_Text_Book/blob/Search_Text_Book/image/image-1.png)
+1. `API & Services` > `Enabled APIs & services`をクリック
 
-![Alt text](https://github.com/IshigamiRyoichi/Kagawa_Univ_Search_Text_Book/blob/Search_Text_Book/image/image-2.png)
+    ![Alt text](https://github.com/IshigamiRyoichi/Kagawa_Univ_Search_Text_Book/blob/Search_Text_Book/image/image.png)
 
-![Alt text](https://github.com/IshigamiRyoichi/Kagawa_Univ_Search_Text_Book/blob/Search_Text_Book/image/image-3.png)
+1. `+ENABLE APIS AND SERVICES`をクリック
 
-![Alt text](https://github.com/IshigamiRyoichi/Kagawa_Univ_Search_Text_Book/blob/Search_Text_Book/image/image-4.png)
+    ![Alt text](https://github.com/IshigamiRyoichi/Kagawa_Univ_Search_Text_Book/blob/Search_Text_Book/image/image-1.png)
 
-![Alt text](https://github.com/IshigamiRyoichi/Kagawa_Univ_Search_Text_Book/blob/Search_Text_Book/image/image-5.png)
+1. `Google Drive API`と`Google Aheets API`を検索し，2つのAPIを有効にする
+
+    ![Alt text](https://github.com/IshigamiRyoichi/Kagawa_Univ_Search_Text_Book/blob/Search_Text_Book/image/image-2.png)
+
+    ![Alt text](https://github.com/IshigamiRyoichi/Kagawa_Univ_Search_Text_Book/blob/Search_Text_Book/image/image-3.png)
+
+1. `API & Services` > `Credentials`をクリック
+
+    ![Alt text](https://github.com/IshigamiRyoichi/Kagawa_Univ_Search_Text_Book/blob/Search_Text_Book/image/image-4.png)
+
+1. `CREATE CREDENTIALS`をクリック
+
+1. サービスアカウントを作成する
+
+1. `Service Accounts`の✐をクリック
+
+    ![Alt text](https://github.com/IshigamiRyoichi/Kagawa_Univ_Search_Text_Book/blob/Search_Text_Book/image/image-5.png)
+
+1. `KEYS` > `ADD KEY▼` > `Create new key` > `JSON` > `CREATE`
+
+1. 保存されたJSONを`./json`に移動させる
+
+1. Google スプレッドシートの`Share`をクリック
+
+1. JSONの`client_email`のアドレスを追加 > `send`
